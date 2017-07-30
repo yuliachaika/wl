@@ -1,0 +1,135 @@
+
+body {
+	font-size: 0;
+	min-height: 100vh;
+	border: 20px solid #236d9c;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.container {
+	max-width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #2A86C0;
+    b-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+    
+}
+header, main, footer {
+	background-color: #2A86C0;	
+}
+footer {
+	height: 100vh; /* как можно сделать по-другому? */
+}
+h1 {
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	font-size: 22px;
+	color: white;
+}
+
+main {
+	background-color: #2A86C0;
+}
+/*
+ul - 2px
+li - 2px
+*/
+ul {
+	font-size: 0;
+	border: 2px solid #FFF;
+	
+}
+li {
+	display: inline-block;
+	padding: 20px 0;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	border: 2px solid #FFF;
+}
+li.lisbon {
+	width: 50%;
+	background-color: #2A86C0;
+	
+}
+li.paris {
+	width: 25%;
+	background-color: #2fc3c1;
+	
+}
+li.belgrade {
+	width: 25%;
+	background-color: #865087;
+}
+li.moscow {
+	width: 25%;
+	background-color: #B33237;
+}
+li.ta {
+	width: 25%;
+	background-color: #d9503a;
+}
+li.cair {
+	width: 25%;
+	background-color: #fec254;
+}
+li.ny {
+	width: 25%;
+	background-color: #89c487;
+}
+li.nd {
+	width: 25%;
+	background-color: #558887;
+}
+li.sf {
+	width: 50%;
+	background-color: #be4e87;
+}
+li.tokyo {
+	width: 25%;
+	background-color: #2b8a53;
+}
+li.sidney {
+	width: 100%;
+	background-color: #535187;
+}
+i.wi {
+	font-size: 22px;
+	font-weight: 900;
+}
+li h2 {
+	padding-bottom: 10px;
+	font-size: 18px;
+    font-weight: 200;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #FFF;	
+}
+span {
+	font-size: 18px;
+	font-weight: 200;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #FFF;
+	opacity: 0.6;
+}
+p {
+	font-size: 14px;
+    font-weight: 300;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #FFF;
+}
+li:hover {
+	outline: 2px solid #FFF;
+}
+ul:hover li:not(:hover) {
+	opacity: 0.5;
+	-webkit-transition: all .1s ease-in;
+	   -moz-transition: all .1s ease-in;
+	    -ms-transition: all .1s ease-in;
+	     -o-transition: all .1s ease-in;
+	        transition: all .1s ease-in;
+}
+
+
